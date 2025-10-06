@@ -11,12 +11,12 @@ public class Cuenta {
 	}
 
 	public Double ingresar(Double i) {
-		saldo = 200.0;
+		saldo += i;
 		return saldo;
 	}
 
 	public Double retirar(Double i) {
-		saldo = -200.0;
+		saldo -= i;
 		return saldo;
 	}
 

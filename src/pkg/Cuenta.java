@@ -6,25 +6,25 @@ public class Cuenta {
 	String titular;
 	Double saldo;
 
-	public Cuenta(Double i) {
+	public Cuenta(double i) {
 		saldo = i;
 	}
 
-	public Double ingresar(Double i) {
+	public double ingresar(double i) {
 		saldo += i;
 		return saldo;
 	}
 
-	public Double retirar(Double i) {
+	public double retirar(double i) {
 		saldo -= i;
 		return saldo;
 	}
 
-	public Double getSaldo() {
+	public double getSaldo() {
 		return saldo;
 	}
 	
-	public void setSaldo(Double saldo) {
+	public void setSaldo(double saldo) {
 		this.saldo = saldo;
 	}
 

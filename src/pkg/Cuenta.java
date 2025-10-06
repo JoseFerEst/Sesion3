@@ -10,14 +10,12 @@ public class Cuenta {
 		saldo = i;
 	}
 
-	public double ingresar(double i) {
+	public void ingresar(double i) {
 		saldo += i;
-		return saldo;
 	}
 
-	public double retirar(double i) {
+	public void retirar(double i) {
 		saldo -= i;
-		return saldo;
 	}
 
 	public double getSaldo() {
